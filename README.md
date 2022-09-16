@@ -36,3 +36,5 @@
 
 <h3>Restart Apache in XAMPP</h3>
 1. Open XAMPP Control Panel and Stop and re-Start Apache Module.
+
+Reference From : https://shellcreeper.com/how-to-create-valid-ssl-in-localhost-for-xampp/
