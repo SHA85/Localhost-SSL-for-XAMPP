@@ -1,5 +1,4 @@
-# Localhost-SSL-for-XAMPP
-How to Create Valid SSL in XAMPP
+# How to Create Valid SSL in XAMPP
 
 <h3>Generating Certificate File</h3>
 1. Download <strong>"crt"</strong> folder (includes "cert.conf" and "make-cert.bat" files). <br>
