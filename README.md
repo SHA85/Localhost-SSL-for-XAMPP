@@ -21,7 +21,7 @@
 
 <h3>Add the site in XAMPP conf</h3>
 1. Open <strong>"C:\xampp\apache\conf\extra\httpd-xampp.conf"</strong> file.<br>
-2. And add this code at the bottom:<br>
+2. Add this code at the bottom:<br>
 <p><strong>
 #project1.test <br>
 &ltVirtualHost *:443&gt <br>
