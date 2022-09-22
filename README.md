@@ -9,23 +9,22 @@
 2. Type domain name like <strong>"myproject1.test"</strong> when prompted and press <strong>Enter</strong>. <br>
 3. Press <strong>"Enter"</strong> if you don't want to fill information <strong>or</strong> Type for the information.<br>
 4. Batch program will create folder with <strong>domain name</strong> (e.g. "project1.test"), that you enter and create "server.crt" and "server.key" in that folder.
-![1Web](https://user-images.githubusercontent.com/33415417/191418086-2a33310b-0a56-4b7e-830f-a0c35903cbf8.png)
-
+<img src="https://user-images.githubusercontent.com/33415417/191418086-2a33310b-0a56-4b7e-830f-a0c35903cbf8.png" alt="Folder Structure" title="Folder structure" style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 <h3>Step 3 - Install Certificate in Windows</h3>
 1. Open certificate folder and Right click on <strong>"server.crt"</strong> file and Choose <strong>"Install Certificate"</strong>.<br>
 2. In store location, choose <strong>"Local Machine"</strong> and click <strong>"Next"</strong> button.<br>
 3. Select "Place all certificate in the following store" and click "Browse" button and select "Trusted Root Certification Authorities".
-![2Web](https://user-images.githubusercontent.com/33415417/191418126-7edc1902-9e64-4c48-b4f7-c1b6fc341b0a.png)
-![3Web](https://user-images.githubusercontent.com/33415417/191418154-680b74a8-dc52-4fb1-aff4-69b50c7176f1.png)
-![4Web](https://user-images.githubusercontent.com/33415417/191418171-255290df-8aa9-4093-8d58-3a5727ecff50.png)
+<img src="https://user-images.githubusercontent.com/33415417/191418126-7edc1902-9e64-4c48-b4f7-c1b6fc341b0a.png" alt="Folder Structure" title="Folder structure" style="display: inline-block; margin: 0 auto; max-width: 300px">
+<img src="https://user-images.githubusercontent.com/33415417/191418154-680b74a8-dc52-4fb1-aff4-69b50c7176f1.png" alt="Folder Structure" title="Folder structure" style="display: inline-block; margin: 0 auto; max-width: 300px">
+<img src="https://user-images.githubusercontent.com/33415417/191418171-255290df-8aa9-4093-8d58-3a5727ecff50.png" alt="Folder Structure" title="Folder structure" style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 <h3>Step 4 - Add the site in Windows hosts</h3>
 1. Open notepad as Administrator. (Right click on "Notepad" program and choose "Run as Administrator")<br>
 2. Open <strong>"C:\Windows\System32\drivers\etc\hosts"</strong> from Notepad program.<br>
 3. Add this <strong>"127.0.0.1 project1.test"</strong> in a new line.<br>
 4. <strong>Save and close</strong> file.
-![5Web](https://user-images.githubusercontent.com/33415417/191418236-c24bb825-b7fc-40e4-97a2-3ad1714af116.png)
+<img src="https://user-images.githubusercontent.com/33415417/191418236-c24bb825-b7fc-40e4-97a2-3ad1714af116.png" alt="Folder Structure" title="Folder structure" style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 <h3>Step 5 - Add the site in XAMPP conf</h3>
 1. Open <strong>"C:\xampp\apache\conf\extra\httpd-xampp.conf"</strong> file.<br>
